@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListingsDungannonActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="1080px"
+                android:layout_height="wrap_content"
+                android:text="OMAGH LISTINGS"
+                android:textAlignment="center"
+                android:textColor="#00000000"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider4"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/listDivider" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:textAlignment="center">
+
+                        <ImageButton
+                            android:id="@+id/imageButton1"
+                            android:layout_width="1080px"
+                            android:layout_height="607.5px"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/deadpool2" />
+
+                        <TextView
+                            android:id="@+id/textView1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Deadpool 2"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView21"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Wisecracking mercenary Deadpool meets Russell, an angry teenage mutant who lives at an orphanage. When Russell becomes the target of Cable -- a genetically enhanced soldier from the future -- Deadpool realizes that he'll need some help saving the boy from such a superior enemy. He soon joins forces with Bedlam, Shatterstar, Domino and other powerful mutants to protect young Russell from Cable and his advanced weaponry."
+                            android:textAlignment="gravity"
+                            android:textColor="#7C0505"
+                            android:textStyle="bold|italic" />
+
+                        <TextView
+                            android:id="@+id/textView31"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="PRICE: £7.50"
+                            android:textAlignment="center"
+                            android:textColor="#01095F"
+                            android:textStyle="bold|italic" />
+
+                        <ImageButton
+                            android:id="@+id/imageButton31"
+                            android:layout_width="200px"
+                            android:layout_height="100px"
+                            android:scaleType="fitCenter"
+                            app:srcCompat="@drawable/cart" />
+
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:textAlignment="center">
+
+                        <ImageButton
+                            android:id="@+id/imageButton2"
+                            android:layout_width="1080px"
+                            android:layout_height="607.5px"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/goosebumps" />
+
+                        <TextView
+                            android:id="@+id/textView12"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Goosebumps 2"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView22"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Upset about moving from the big city to a small town, young Zach Cooper (Dylan Minnette) finds a silver lining when he meets his beautiful neighbor Hannah (Odeya Rush). The teen is surprised to learn that Hannah's mysterious father is R.L. Stine (Jack Black), the famous author of the best-selling 'Goosebumps' series. When Zach accidentally unleashes the monsters from the fantastic tales, it's up to Stine, his daughter and Cooper to return the beasts back to the books where they belong."
+                            android:textAlignment="gravity"
+                            android:textColor="#7C0505"
+                            android:textStyle="bold|italic" />
+
+                        <TextView
+                            android:id="@+id/textView32"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="PRICE: £7.50"
+                            android:textAlignment="center"
+                            android:textColor="#01095F"
+                            android:textStyle="bold|italic" />
+
+                        <ImageButton
+                            android:id="@+id/imageButton32"
+                            android:layout_width="200px"
+                            android:layout_height="100px"
+                            android:scaleType="fitCenter"
+                            app:srcCompat="@drawable/cart" />
+
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:textAlignment="center">
+
+                        <ImageButton
+                            android:id="@+id/imageButton3"
+                            android:layout_width="1080px"
+                            android:layout_height="607.5px"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/hellboy" />
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Hellboy"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView23"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Based on the graphic novels by Mike Mignola, Hellboy, caught between the worlds of the supernatural and human, battles an ancient sorceress bent on revenge."
+                            android:textAlignment="gravity"
+                            android:textColor="#7C0505"
+                            android:textStyle="bold|italic" />
+
+                        <TextView
+                            android:id="@+id/textView33"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="PRICE: £7.50"
+                            android:textAlignment="center"
+                            android:textColor="#01095F"
+                            android:textStyle="bold|italic" />
+
+                        <ImageButton
+                            android:id="@+id/imageButton33"
+                            android:layout_width="200px"
+                            android:layout_height="100px"
+                            android:scaleType="fitCenter"
+                            app:srcCompat="@drawable/cart" />
+
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:textAlignment="center">
+
+                        <ImageButton
+                            android:id="@+id/imageButton"
+                            android:layout_width="1080px"
+                            android:layout_height="607.5px"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/petsemetary" />
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Pet Sematary"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Dr. Louis Creed and his wife, Rachel, relocate from Boston to rural Maine with their two young children. The couple soon discover a mysterious burial ground hidden deep in the woods near their new home. When tragedy strikes, Louis turns to his neighbour Jud Crandall, setting off a perilous chain reaction that unleashes an unspeakable evil with horrific consequences."
+                            android:textAlignment="gravity"
+                            android:textColor="#7C0505"
+                            android:textStyle="bold|italic" />
+
+                        <TextView
+                            android:id="@+id/textView34"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="PRICE: £7.50"
+                            android:textAlignment="center"
+                            android:textColor="#01095F"
+                            android:textStyle="bold|italic" />
+
+                        <ImageButton
+                            android:id="@+id/imageButton43"
+                            android:layout_width="200px"
+                            android:layout_height="100px"
+                            android:scaleType="fitCenter"
+                            app:srcCompat="@drawable/cart" />
+
+                    </LinearLayout>
+
+                </TableRow>
+
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListingsDungannonActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/dungannontitle"
+                android:layout_width="1080px"
+                android:layout_height="wrap_content"
+                android:background="#00C01111"
+                android:text="DUNGANNON LISTINGS"
+                android:textAlignment="center"
+                android:textColor="#070606"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider2"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/listDivider" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:textAlignment="center">
+
+                        <ImageButton
+                            android:id="@+id/imageButton"
+                            android:layout_width="1080px"
+                            android:layout_height="607.5px"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/avengersendgame" />
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Avengers Endgame"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Adrift in space with no food or water, Tony Stark sends a message to Pepper Potts as his oxygen supply starts to dwindle. Meanwhile, the remaining Avengers -- Thor, Black Widow, Captain America and Bruce Banner -- must figure out a way to bring back their vanquished allies for an epic showdown with Thanos -- the evil demigod who decimated the planet and the universe."
+                            android:textAlignment="gravity"
+                            android:textColor="#7C0505"
+                            android:textStyle="bold|italic" />
+
+                        <TextView
+                            android:id="@+id/textView6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:textColor="#01095F"
+                            android:textStyle="bold"
+                            tools:text="SHOW TIMES:        6:OOPM,   8:00PM,   9:30PM." />
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="PRICE: £6.50"
+                            android:textAlignment="center"
+                            android:textColor="#01095F"
+                            android:textStyle="bold|italic" />
+
+                        <ImageButton
+                            android:id="@+id/imageButton3"
+                            android:layout_width="200px"
+                            android:layout_height="100px"
+                            android:scaleType="fitCenter"
+                            app:srcCompat="@drawable/cart" />
+
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:textAlignment="center">
+
+                        <ImageButton
+                            android:id="@+id/imageButton"
+                            android:layout_width="1080px"
+                            android:layout_height="607.5px"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/aladdin" />
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Aladdin"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Young Aladdin embarks on a magical adventure after finding a lamp that releases a wisecracking genie."
+                            android:textAlignment="gravity"
+                            android:textColor="#7C0505"
+                            android:textStyle="bold|italic" />
+
+                        <TextView
+                            android:id="@+id/textView7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:textColor="#01095F"
+                            android:textStyle="bold"
+                            tools:text="SHOW TIMES:        6:OOPM,   8:00PM,   9:30PM." />
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="PRICE: £6.50"
+                            android:textAlignment="center"
+                            android:textColor="#01095F"
+                            android:textStyle="bold|italic" />
+
+                        <ImageButton
+                            android:id="@+id/imageButton3"
+                            android:layout_width="200px"
+                            android:layout_height="100px"
+                            android:scaleType="fitCenter"
+                            app:srcCompat="@drawable/cart" />
+
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:textAlignment="center">
+
+                        <ImageButton
+                            android:id="@+id/imageButton"
+                            android:layout_width="1080px"
+                            android:layout_height="607.5px"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/aquaman" />
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Aquaman"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Once home to the most advanced civilization on Earth, the city of Atlantis is now an underwater kingdom ruled by the power-hungry King Orm. With a vast army at his disposal, Orm plans to conquer the remaining oceanic people -- and then the surface world. Standing in his way is Aquaman, Orm's half-human, half-Atlantean brother and true heir to the throne. With help from royal counselor Vulko, Aquaman must retrieve the legendary Trident of Atlan and embrace his destiny as protector of the deep.."
+                            android:textAlignment="gravity"
+                            android:textColor="#7C0505"
+                            android:textStyle="bold|italic" />
+
+                        <TextView
+                            android:id="@+id/textView9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:textColor="#01095F"
+                            android:textStyle="bold"
+                            tools:text="SHOW TIMES:        6:OOPM,   8:00PM,   9:30PM." />
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="PRICE: £6.50"
+                            android:textAlignment="center"
+                            android:textColor="#01095F"
+                            android:textStyle="bold|italic" />
+
+                        <ImageButton
+                            android:id="@+id/imageButton3"
+                            android:layout_width="200px"
+                            android:layout_height="100px"
+                            android:scaleType="fitCenter"
+                            app:srcCompat="@drawable/cart" />
+
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:textAlignment="center">
+
+                        <ImageButton
+                            android:id="@+id/imageButton"
+                            android:layout_width="1080px"
+                            android:layout_height="607.5px"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/doctorstrange" />
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Doctor Strange"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Dr. Stephen Strange's (Benedict Cumberbatch) life changes after a car accident robs him of the use of his hands. When traditional medicine fails him, he looks for healing, and hope, in a mysterious enclave. He quickly learns that the enclave is at the front line of a battle against unseen dark forces bent on destroying reality. Before long, Strange is forced to choose between his life of fortune and status or leave it all behind to defend the world as the most powerful sorcerer in existence."
+                            android:textAlignment="gravity"
+                            android:textColor="#7C0505"
+                            android:textStyle="bold|italic" />
+
+                        <TextView
+                            android:id="@+id/textView8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:textColor="#01095F"
+                            android:textStyle="bold"
+                            tools:text="SHOW TIMES:        6:OOPM,   8:00PM,   9:30PM." />
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="PRICE: £6.50"
+                            android:textAlignment="center"
+                            android:textColor="#01095F"
+                            android:textStyle="bold|italic" />
+
+                        <ImageButton
+                            android:id="@+id/imageButton3"
+                            android:layout_width="200px"
+                            android:layout_height="100px"
+                            android:scaleType="fitCenter"
+                            app:srcCompat="@drawable/cart" />
+
+                    </LinearLayout>
+
+                </TableRow>
+
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

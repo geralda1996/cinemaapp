@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListingsDungannonActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/enniskillenlistings"
+                android:layout_width="1080px"
+                android:layout_height="wrap_content"
+                android:text="ENNISKILLEN LISTINGS"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider3"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="?android:attr/listDivider" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:textAlignment="center">
+
+                        <ImageButton
+                            android:id="@+id/imageButton"
+                            android:layout_width="1080px"
+                            android:layout_height="607.5px"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/maleficient" />
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Maleficient"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="As a beautiful young woman of pure heart, Maleficent (Angelina Jolie) has an idyllic life in a forest kingdom. When an invading army threatens the land, Maleficent rises up to become its fiercest protector. However, a terrible betrayal hardens her heart and twists her into a creature bent on revenge. She engages in an epic battle with the invading king's successor, then curses his newborn daughter, Aurora -- realizing only later that the child holds the key to peace in the kingdom."
+                            android:textAlignment="gravity"
+                            android:textColor="#7C0505"
+                            android:textStyle="bold|italic" />
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="PRICE: £7.00"
+                            android:textAlignment="center"
+                            android:textColor="#01095F"
+                            android:textStyle="bold|italic" />
+
+                        <ImageButton
+                            android:id="@+id/imageButton3"
+                            android:layout_width="200px"
+                            android:layout_height="100px"
+                            android:scaleType="fitCenter"
+                            app:srcCompat="@drawable/cart" />
+
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:textAlignment="center">
+
+                        <ImageButton
+                            android:id="@+id/imageButton"
+                            android:layout_width="1080px"
+                            android:layout_height="607.5px"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/johnwick" />
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Johhn Wick"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Legendary hit man John Wick must fight his way out of New York when a $14 million contract on his life makes him the target of the world's top assassins."
+                            android:textAlignment="gravity"
+                            android:textColor="#7C0505"
+                            android:textStyle="bold|italic" />
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="PRICE: £7.00"
+                            android:textAlignment="center"
+                            android:textColor="#01095F"
+                            android:textStyle="bold|italic" />
+
+                        <ImageButton
+                            android:id="@+id/imageButton3"
+                            android:layout_width="200px"
+                            android:layout_height="100px"
+                            android:scaleType="fitCenter"
+                            app:srcCompat="@drawable/cart" />
+
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:textAlignment="center">
+
+                        <ImageButton
+                            android:id="@+id/imageButton"
+                            android:layout_width="1080px"
+                            android:layout_height="607.5px"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/logan" />
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Logan"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="In the near future, a weary Logan (Hugh Jackman) cares for an ailing Professor X (Patrick Stewart) at a remote outpost on the Mexican border. His plan to hide from the outside world gets upended when he meets a young mutant (Dafne Keen) who is very much like him. Logan must now protect the girl and battle the dark forces that want to capture her."
+                            android:textAlignment="gravity"
+                            android:textColor="#7C0505"
+                            android:textStyle="bold|italic" />
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="PRICE: £7.00"
+                            android:textAlignment="center"
+                            android:textColor="#01095F"
+                            android:textStyle="bold|italic" />
+
+                        <ImageButton
+                            android:id="@+id/imageButton3"
+                            android:layout_width="200px"
+                            android:layout_height="100px"
+                            android:scaleType="fitCenter"
+                            app:srcCompat="@drawable/cart" />
+
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:textAlignment="center">
+
+                        <ImageButton
+                            android:id="@+id/imageButton"
+                            android:layout_width="1080px"
+                            android:layout_height="607.5px"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/batmanvsuperman" />
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Batman vs Superman"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="It's been nearly two years since Superman's (Henry Cavill) colossal battle with Zod (Michael Shannon) devastated the city of Metropolis. The loss of life and collateral damage left many feeling angry and helpless, including crime-fighting billionaire Bruce Wayne (Ben Affleck). Convinced that Superman is now a threat to humanity, Batman embarks on a personal vendetta to end his reign on Earth, while the conniving Lex Luthor (Jesse Eisenberg) launches his own crusade against the Man of Steel."
+                            android:textAlignment="gravity"
+                            android:textColor="#7C0505"
+                            android:textStyle="bold|italic" />
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="PRICE: £7.00"
+                            android:textAlignment="center"
+                            android:textColor="#01095F"
+                            android:textStyle="bold|italic" />
+
+                        <ImageButton
+                            android:id="@+id/imageButton3"
+                            android:layout_width="200px"
+                            android:layout_height="100px"
+                            android:scaleType="fitCenter"
+                            app:srcCompat="@drawable/cart" />
+
+                    </LinearLayout>
+
+                </TableRow>
+
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
