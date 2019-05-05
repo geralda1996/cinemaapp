@@ -48,14 +48,14 @@
                         android:textAlignment="center">
 
                         <ImageButton
-                            android:id="@+id/imageButton"
+                            android:id="@+id/imageButton11"
                             android:layout_width="1080px"
                             android:layout_height="607.5px"
                             android:scaleType="fitXY"
                             app:srcCompat="@drawable/avengersendgame" />
 
                         <TextView
-                            android:id="@+id/textView"
+                            android:id="@+id/textView1"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Avengers Endgame"
@@ -64,7 +64,7 @@
                             android:textStyle="bold" />
 
                         <TextView
-                            android:id="@+id/textView2"
+                            android:id="@+id/textView12"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Adrift in space with no food or water, Tony Stark sends a message to Pepper Potts as his oxygen supply starts to dwindle. Meanwhile, the remaining Avengers -- Thor, Black Widow, Captain America and Bruce Banner -- must figure out a way to bring back their vanquished allies for an epic showdown with Thanos -- the evil demigod who decimated the planet and the universe."
@@ -82,7 +82,7 @@
                             tools:text="SHOW TIMES:        6:OOPM,   8:00PM,   9:30PM." />
 
                         <TextView
-                            android:id="@+id/textView3"
+                            android:id="@+id/textView03"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="PRICE: £6.50"
@@ -91,7 +91,7 @@
                             android:textStyle="bold|italic" />
 
                         <ImageButton
-                            android:id="@+id/imageButton3"
+                            android:id="@+id/imageButton013"
                             android:layout_width="200px"
                             android:layout_height="100px"
                             android:scaleType="fitCenter"
@@ -112,14 +112,14 @@
                         android:textAlignment="center">
 
                         <ImageButton
-                            android:id="@+id/imageButton"
+                            android:id="@+id/imageButton0"
                             android:layout_width="1080px"
                             android:layout_height="607.5px"
                             android:scaleType="fitXY"
                             app:srcCompat="@drawable/aladdin" />
 
                         <TextView
-                            android:id="@+id/textView"
+                            android:id="@+id/textView0"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Aladdin"
@@ -128,7 +128,7 @@
                             android:textStyle="bold" />
 
                         <TextView
-                            android:id="@+id/textView2"
+                            android:id="@+id/textView02"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Young Aladdin embarks on a magical adventure after finding a lamp that releases a wisecracking genie."
@@ -146,7 +146,7 @@
                             tools:text="SHOW TIMES:        6:OOPM,   8:00PM,   9:30PM." />
 
                         <TextView
-                            android:id="@+id/textView3"
+                            android:id="@+id/textView30"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="PRICE: £6.50"
@@ -155,7 +155,7 @@
                             android:textStyle="bold|italic" />
 
                         <ImageButton
-                            android:id="@+id/imageButton3"
+                            android:id="@+id/imageButton30"
                             android:layout_width="200px"
                             android:layout_height="100px"
                             android:scaleType="fitCenter"
@@ -176,14 +176,14 @@
                         android:textAlignment="center">
 
                         <ImageButton
-                            android:id="@+id/imageButton"
+                            android:id="@+id/imageButton00"
                             android:layout_width="1080px"
                             android:layout_height="607.5px"
                             android:scaleType="fitXY"
                             app:srcCompat="@drawable/aquaman" />
 
                         <TextView
-                            android:id="@+id/textView"
+                            android:id="@+id/textView00"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Aquaman"
@@ -192,7 +192,7 @@
                             android:textStyle="bold" />
 
                         <TextView
-                            android:id="@+id/textView2"
+                            android:id="@+id/textView020"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Once home to the most advanced civilization on Earth, the city of Atlantis is now an underwater kingdom ruled by the power-hungry King Orm. With a vast army at his disposal, Orm plans to conquer the remaining oceanic people -- and then the surface world. Standing in his way is Aquaman, Orm's half-human, half-Atlantean brother and true heir to the throne. With help from royal counselor Vulko, Aquaman must retrieve the legendary Trident of Atlan and embrace his destiny as protector of the deep.."
@@ -210,7 +210,7 @@
                             tools:text="SHOW TIMES:        6:OOPM,   8:00PM,   9:30PM." />
 
                         <TextView
-                            android:id="@+id/textView3"
+                            android:id="@+id/textView003"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="PRICE: £6.50"
@@ -219,7 +219,7 @@
                             android:textStyle="bold|italic" />
 
                         <ImageButton
-                            android:id="@+id/imageButton3"
+                            android:id="@+id/imageButton03"
                             android:layout_width="200px"
                             android:layout_height="100px"
                             android:scaleType="fitCenter"

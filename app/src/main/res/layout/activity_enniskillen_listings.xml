@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ListingsDungannonActivity">
+    tools:context=".ListingsEnniskillenActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -47,14 +47,14 @@
                         android:textAlignment="center">
 
                         <ImageButton
-                            android:id="@+id/imageButton"
+                            android:id="@+id/imageButton0"
                             android:layout_width="1080px"
                             android:layout_height="607.5px"
                             android:scaleType="fitXY"
                             app:srcCompat="@drawable/maleficient" />
 
                         <TextView
-                            android:id="@+id/textView"
+                            android:id="@+id/textView0"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Maleficient"
@@ -63,7 +63,7 @@
                             android:textStyle="bold" />
 
                         <TextView
-                            android:id="@+id/textView2"
+                            android:id="@+id/textView20"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="As a beautiful young woman of pure heart, Maleficent (Angelina Jolie) has an idyllic life in a forest kingdom. When an invading army threatens the land, Maleficent rises up to become its fiercest protector. However, a terrible betrayal hardens her heart and twists her into a creature bent on revenge. She engages in an epic battle with the invading king's successor, then curses his newborn daughter, Aurora -- realizing only later that the child holds the key to peace in the kingdom."
@@ -72,7 +72,7 @@
                             android:textStyle="bold|italic" />
 
                         <TextView
-                            android:id="@+id/textView3"
+                            android:id="@+id/textView30"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="PRICE: £7.00"
@@ -81,7 +81,7 @@
                             android:textStyle="bold|italic" />
 
                         <ImageButton
-                            android:id="@+id/imageButton3"
+                            android:id="@+id/imageButton30"
                             android:layout_width="200px"
                             android:layout_height="100px"
                             android:scaleType="fitCenter"
@@ -102,14 +102,14 @@
                         android:textAlignment="center">
 
                         <ImageButton
-                            android:id="@+id/imageButton"
+                            android:id="@+id/imageButton10"
                             android:layout_width="1080px"
                             android:layout_height="607.5px"
                             android:scaleType="fitXY"
                             app:srcCompat="@drawable/johnwick" />
 
                         <TextView
-                            android:id="@+id/textView"
+                            android:id="@+id/textView10"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Johhn Wick"
@@ -118,7 +118,7 @@
                             android:textStyle="bold" />
 
                         <TextView
-                            android:id="@+id/textView2"
+                            android:id="@+id/textView210"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Legendary hit man John Wick must fight his way out of New York when a $14 million contract on his life makes him the target of the world's top assassins."
@@ -127,7 +127,7 @@
                             android:textStyle="bold|italic" />
 
                         <TextView
-                            android:id="@+id/textView3"
+                            android:id="@+id/textView310"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="PRICE: £7.00"
@@ -136,7 +136,7 @@
                             android:textStyle="bold|italic" />
 
                         <ImageButton
-                            android:id="@+id/imageButton3"
+                            android:id="@+id/imageButton310"
                             android:layout_width="200px"
                             android:layout_height="100px"
                             android:scaleType="fitCenter"
@@ -157,14 +157,14 @@
                         android:textAlignment="center">
 
                         <ImageButton
-                            android:id="@+id/imageButton"
+                            android:id="@+id/imageButton00"
                             android:layout_width="1080px"
                             android:layout_height="607.5px"
                             android:scaleType="fitXY"
                             app:srcCompat="@drawable/logan" />
 
                         <TextView
-                            android:id="@+id/textView"
+                            android:id="@+id/textView00"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Logan"
@@ -173,7 +173,7 @@
                             android:textStyle="bold" />
 
                         <TextView
-                            android:id="@+id/textView2"
+                            android:id="@+id/textView200"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="In the near future, a weary Logan (Hugh Jackman) cares for an ailing Professor X (Patrick Stewart) at a remote outpost on the Mexican border. His plan to hide from the outside world gets upended when he meets a young mutant (Dafne Keen) who is very much like him. Logan must now protect the girl and battle the dark forces that want to capture her."
@@ -182,7 +182,7 @@
                             android:textStyle="bold|italic" />
 
                         <TextView
-                            android:id="@+id/textView3"
+                            android:id="@+id/textView300"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="PRICE: £7.00"
@@ -191,7 +191,7 @@
                             android:textStyle="bold|italic" />
 
                         <ImageButton
-                            android:id="@+id/imageButton3"
+                            android:id="@+id/imageButton030"
                             android:layout_width="200px"
                             android:layout_height="100px"
                             android:scaleType="fitCenter"
